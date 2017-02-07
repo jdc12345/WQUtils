@@ -1,0 +1,9 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/JLRoutes" "${PODS_ROOT}/Headers/Public/JSONKit-NoWarning" "${PODS_ROOT}/Headers/Public/SSKeychain"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/JLRoutes" "$PODS_CONFIGURATION_BUILD_DIR/JSONKit-NoWarning" "$PODS_CONFIGURATION_BUILD_DIR/SSKeychain"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/JLRoutes" -isystem "${PODS_ROOT}/Headers/Public/JSONKit-NoWarning" -isystem "${PODS_ROOT}/Headers/Public/SSKeychain"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"JLRoutes" -l"JSONKit-NoWarning" -l"SSKeychain" -framework "Foundation" -framework "Security"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods

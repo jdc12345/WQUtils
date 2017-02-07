@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>JLRoutes.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>JSONKit-NoWarning.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-WQUtils.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SSKeychain.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>A61E42D92A16582ADF351FE406BB4F69</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B57D92384FA2F23CD05FDC32553AECFD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BB2AB6C3F17512F8687B187A905D5DB1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F253CE5644FA7FF3E220C4280F19B6E1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

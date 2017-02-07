@@ -1,0 +1,5 @@
+target ‘WQUtils’ do
+pod 'JSONKit-NoWarning', '~> 1.2'
+pod 'JLRoutes', '~> 2.0.1'
+pod 'SSKeychain', '~> 1.4.1'
+end
